@@ -87,8 +87,12 @@
                 </li>
 
                 <!-- class="nav-item dropdown" -->
-                <li >
-                  <a href="https://edgyengage.github.io/" id="dropdownShop" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <div >
+
+                  <div>
+                    <a class="nav-link" href="https://edgyengage.github.io/">Shop</a>
+                  </div>
+                  <!-- <a href="https://edgyengage.github.io/" id="dropdownShop" aria-haspopup="true" aria-expanded="false">Shop</a> -->
                   <!-- <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownShop">
                     <li>
                       <a href="index.html" class="dropdown-item item-anchor">Shop Sidebar </a>
@@ -118,7 +122,7 @@
                       <a href="index.html" class="dropdown-item item-anchor">Single Product V2 </a>
                     </li>
                   </ul> -->
-                </li>
+                </div>
                 <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="dropdownBlog" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Blog</a>
@@ -182,9 +186,9 @@
                     </li> -->
                   </ul>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
                 </li>
@@ -234,7 +238,7 @@
         </div> -->
 
 
-<!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      
+ <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      <!-- wishlist, cart, search     -->      
 
 
         
@@ -287,10 +291,35 @@
         </div>
 
         <div class="quantity">
-            <input type="number" value="1" min="1">
-            <button>Add to Cart</button>
-        </div>
+          <input type="number" value="1" min="1">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCqLzGOmxnO8T27j_R4ds0DZB6IsRnPXngm50M6wknPt1Wdw/viewform" target="_blank">
+            <button class="custom-button-01">Order Now</button>
+        </a>
+        
+          
+          <a><br>This button will redirect to a <b>GOOGLE FORMS</b> page. 
+            <br>Fill the info's to confirm your order.</a>
+          <!-- <a><br>Order now by filling up this <b>GOOGLE FORMS</b> form.</a> -->
+      </div>
+      
+          <div>
 
+            <div>
+              <br>
+              <h5>Or Order through Instagram</h5>
+              <h6>Copy this and send it to our inbox to let us know which item you would like to buy. We will confirm the order manually. By sending us a message.</h6>
+
+              <p id="unique-text-01">Order No: tshirtno50B</p>
+              <button class="unique-copy-button-01" onclick="uniqueCopyFunction01()">Copy Text</button>
+              <a href="https://www.instagram.com/edgy_engage" target="_blank">
+                <button class="custom-button-02">Order Through Instagram</button>
+              </a>
+              
+            </div>
+          
+
+            
+          </div>
         <div>
             <p>Delivery:</p>
             <p>Free standard shipping on orders over $35 before tax, plus free returns.</p>
@@ -338,8 +367,13 @@
 
 
   <footer id="footer" class="mt-5">
-    <div class="container">
-      <div class="row d-flex flex-wrap justify-content-between py-5">
+
+<!--    adds a custom line of border -->
+
+    <div class="border-top py-4">    
+
+      <div class="custom-padding-01">
+        <div class="row d-flex flex-wrap justify-content-between py-5">
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
@@ -350,7 +384,7 @@
             <p>We bring you T-shirts👕 that aren’t just clothes, they’re statements. Whether you want to keep it cool, bold, or effortlessly stylish, we’ve got you covered.😎 Imported quality, locally loved.💗 You can start expressing yourself with us.✨</p>
 
 
-<!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->
+                  <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->      <!-- Social Links !!! -->
                 
             <div class="social-links">
               <ul class="list-unstyled d-flex flex-wrap gap-3">
@@ -382,7 +416,7 @@
                     </svg>
                   </a>
                 </li>
-<!--                 <li>
+      <!--                 <li>
                   <a href="#" class="text-secondary">
                     <svg width="24" height="24" viewBox="0 0 24 24">
                       <use xlink:href="youtube"></use>
@@ -390,7 +424,7 @@
                   </a>
                 </li> -->
                 
-<!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->       <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->            
+      <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->       <!-- Social Links Ends !!! -->          <!-- Social Links Ends !!! -->            
            
               </ul>
             </div>
@@ -401,29 +435,29 @@
             <h5 class="widget-title text-uppercase mb-4">Quick Links</h5>
             <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
              <li>
-<a href="https://www.facebook.com/edgyengage/" class="item-anchor" target="_blank" rel="noopener noreferrer">
-<svg width="24" height="24" viewBox="0 0 24 24">
-<use xlink:href="#facebook"></use>
-</svg>
-   <p>Facebook</p>
-</a>
+      <a href="https://www.facebook.com/edgyengage/" class="item-anchor" target="_blank" rel="noopener noreferrer">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+      <use xlink:href="#facebook"></use>
+      </svg>
+       <p>Facebook</p>
+      </a>
            
              </li>
               <li class="menu-item">
                <a href="https://www.instagram.com/edgy_engage" class="item-anchor" target="_blank" rel="noopener noreferrer">
-<svg width="24" height="24" viewBox="0 0 24 24">
-<use xlink:href="#instagram"></use>
-</svg>
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <use xlink:href="#instagram"></use>
+      </svg>
       <p>Instagram</p>            
-</a>
+      </a>
               </li>
               <li class="menu-item">
               <a href="https://www.pinterest.com/edgyengage" class="item-anchor" target="_blank" rel="noopener noreferrer">
-<svg width="24" height="24" viewBox="0 0 24 24">
-<use xlink:href="#pinterest"></use>
-</svg>
- <p>Pinterest</p>                
-</a>
+      <svg width="24" height="24" viewBox="0 0 24 24">
+      <use xlink:href="#pinterest"></use>
+        </svg>
+        <p>Pinterest</p>                
+        </a>
                 
               </li>
 
@@ -431,22 +465,22 @@
               
               <li class="menu-item">
                 <a href="https://www.twitter.com" class="item-anchor" target="_blank" rel="noopener noreferrer">
-<svg width="24" height="24" viewBox="0 0 24 24">
-<use xlink:href="#twitter"></use>
-</svg>
+      <svg width="24" height="24" viewBox="0 0 24 24">
+      <use xlink:href="#twitter"></use>
+        </svg>
                   <p>Twitter</p> 
-</a>
+          </a>
                         
               </li>
 
 
               
           <li class="menu-item">
-    <a href="https://wa.me/8801920305993" class="item-anchor" target="_blank" rel="noopener noreferrer">
-    <p>WhatsApp</p>
-    </a>
+      <a href="https://wa.me/8801920305993" class="item-anchor" target="_blank" rel="noopener noreferrer">
+     <p>WhatsApp</p>
+      </a>
     
-</li>
+      </li>
 
 
               
@@ -455,11 +489,11 @@
         </div>
 
 
-<!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        
+          <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        
 
 
         
-<!--         <div class="col-md-3 col-sm-6">
+      <!--         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-003">
             <h5 class="widget-title text-uppercase mb-4">Help & Info</h5>
             <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
@@ -486,7 +520,7 @@
         </div> -->
 
 
-<!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        
+        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        <!-- Help & Info options      -->        
 
         
         <div class="col-md-3 col-sm-6">
@@ -502,7 +536,14 @@
         </div>
       </div>
     </div>
-    <div class="border-top py-4">
+      </div>
+
+
+
+
+
+    
+      <div class="border-top py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex flex-wrap">
@@ -523,8 +564,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+      </div>
+      </footer>
   <script src="js/jquery.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/SmoothScroll.js"></script>
@@ -533,6 +574,30 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/script.min.js"></script>
+
+  <script>
+    function uniqueCopyFunction01() {
+        // Get the text to copy
+        const textToCopy = document.getElementById("unique-text-01").innerText;
+    
+        // Create a temporary textarea to copy the text
+        const tempTextarea = document.createElement("textarea");
+        tempTextarea.value = textToCopy;
+        document.body.appendChild(tempTextarea);
+    
+        // Select and copy the text
+        tempTextarea.select();
+        document.execCommand("copy");
+    
+        // Remove the temporary textarea
+        document.body.removeChild(tempTextarea);
+    
+        // Notify the user (optional)
+        alert("Text copied to clipboard!");
+    }
+    </script>
+    
+
 </body>
 
 </html>
