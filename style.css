@@ -1243,7 +1243,7 @@ a {
   height: 48px;
   border: 1px solid #ccc;
 }
-.qty-number .quntity-button {
+.qty-number .quantity-button {
   min-width: 40px;
   height: 40px;
   font-size: 1.8em;
@@ -1254,7 +1254,7 @@ a {
   transition: .5s all ease-in-out;
 }
 
-.qty-number .quntity-button:hover {
+.qty-number .quantity-button:hover {
   background-color: var(--accent-lit-color);
 }
 
@@ -1467,6 +1467,56 @@ a.btn-link.text-light:after {
   -ms-user-select: none;
   user-select: none;
 }
+.custom-padding-01 {
+  padding: 40px;
+}
+
+
+/* Style the button */
+.custom-button-01 {
+  background-color: #2e614c; /* Initial button color */
+  color: #ffffff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Change color on hover */
+.custom-button-01:hover {
+  background-color: #673ab7; /* Hover button color */
+  color: #fffcfc; /* Hover text color */
+}
+
+
+.custom-button-02 {
+  background: linear-gradient(90deg, #d84559, #a436b2); /* Gradient background */
+  color: #ffffff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background 0.3s ease, color 0.3s ease; /* Transition background and color */
+}
+
+/* Hover effect with gradient change */
+.custom-button-02:hover {
+  background: linear-gradient(90deg, #f98031, #e53b60); /* Reverse gradient */
+  color: #e0e0e0; /* Optional text color change */
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Hide the browser's default radio button */
 .form-check-label input {
@@ -1486,6 +1536,7 @@ a.btn-link.text-light:after {
   border: 1px solid #111;
   border-radius: 50%;
 }
+
 
 /* On mouse-over, add a grey background color */
 .form-check-label:hover input~.checkmark {
@@ -1581,4 +1632,21 @@ a.btn-link.text-light:after {
   background-position: center;
   background-size: cover;
   transition: transform .3s ease-out;
+}
+
+/* Clipboard copy message button */
+
+.unique-copy-button-01 {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease;
+}
+
+.unique-copy-button-01:hover {
+  background-color: #45a049; /* Darker green on hover */
 }
